@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     private final double actualDistance = 10.0; // 실제 이동 거리 10m로 고정
     private TextView kValueTextView; // K 값을 표시할 TextView
     private TextView stepCountTextView; // 걸음 수를 표시할 TextView
-    private TextView iValueTextView; // 예상 걸음 수를 표시할 TextView
+    private TextView iValueTextView; // 예상 걸음 수를 표시할 TextVieww
 
     private static final int ACTIVITY_RECOGNITION_REQUEST_CODE = 100; // 권한 요청 코드
 
